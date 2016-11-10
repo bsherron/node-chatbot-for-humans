@@ -1,0 +1,21 @@
+{
+  "name": "node-chatbot-for-humans",
+  "version": "0.0.1",
+  "description": "A chatbot administered by non-devs",
+  "main": "chatbot.js",
+  "scripts": {
+    "start": "chatbot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bsherron/node-chatbot-for-humans"
+  },
+  "author": "Bob Sherron",
+  "license": "GPL",
+  "dependencies": {
+    "express": "^4.14.0",
+    "promise-mysql": "^2.0.0",
+    "bluebird": "^3.4.6"
+  }
+}
